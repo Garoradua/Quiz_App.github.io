@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     var form = $("#question-answer");
-    $.get("http://5d76bf96515d1a0014085cf9.mockapi.io/quiz",function(response){
+    $.get("https://5d76bf96515d1a0014085cf9.mockapi.io/quiz",function(response){
         
         for(i=0; i<response.length; i++){
             var section = $("<section>");
